@@ -5,11 +5,16 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode"],
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "styled-components.vscode-styled-components",
+        "formulahendry.auto-rename-tag"
+      ],
       "settings": {
         "editor.formatOnSave": true
       }
     }
   },
+  "postCreateCommand": "yarn install",
   "remoteUser": "node"
 }
